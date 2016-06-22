@@ -22,7 +22,7 @@ Just import **HIUIZoomableGridView** source files to your project.
 * Cell means the rect which contains tile to show. Should return cell size for each zoomlevels
 * Tile is actually grid view to show. 
 * ContentInset means scrollview content insets. It will be show like below.
-** | contentInset | cell | cell | ... | cell | contentInset |
+* | contentInset | cell | cell | ... | cell | contentInset |
 
 ``` objc
     NSInteger minimumZoomLevel;
