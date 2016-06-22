@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE04B801D19C789003F6EBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04B7F1D19C789003F6EBE /* main.m */; };
+		1EE04B831D19C789003F6EBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04B821D19C789003F6EBE /* AppDelegate.m */; };
+		1EE04B861D19C789003F6EBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04B851D19C789003F6EBE /* ViewController.m */; };
+		1EE04B891D19C789003F6EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04B871D19C789003F6EBE /* Main.storyboard */; };
+		1EE04B8C1D19C789003F6EBE /* HIUIZoomableGridViewSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04B8A1D19C789003F6EBE /* HIUIZoomableGridViewSample.xcdatamodeld */; };
+		1EE04B8E1D19C789003F6EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04B8D1D19C789003F6EBE /* Assets.xcassets */; };
+		1EE04B911D19C789003F6EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04B8F1D19C789003F6EBE /* LaunchScreen.storyboard */; };
+		1EE04BA71D1AB5CA003F6EBE /* HIGridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04B9B1D1AB5CA003F6EBE /* HIGridItem.m */; };
+		1EE04BA91D1AB5CA003F6EBE /* HIUIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04BA01D1AB5CA003F6EBE /* HIUIScrollView.m */; };
+		1EE04BAA1D1AB5CA003F6EBE /* HIUIZoomableGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04BA21D1AB5CA003F6EBE /* HIUIZoomableGridView.m */; };
+		1EE04BAD1D1AB5E1003F6EBE /* HIUIZoomableGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04BAC1D1AB5E1003F6EBE /* HIUIZoomableGridViewController.m */; };
+		1EE04BB21D1AB791003F6EBE /* SampleLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04BB11D1AB791003F6EBE /* SampleLayoutManager.m */; };
+		1EE04BB51D1AB7E2003F6EBE /* SampleTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04BB41D1AB7E2003F6EBE /* SampleTile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EE04B7B1D19C789003F6EBE /* HIUIZoomableGridViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIUIZoomableGridViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE04B7F1D19C789003F6EBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE04B811D19C789003F6EBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EE04B821D19C789003F6EBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EE04B841D19C789003F6EBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EE04B851D19C789003F6EBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EE04B881D19C789003F6EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EE04B8B1D19C789003F6EBE /* HIUIZoomableGridViewSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HIUIZoomableGridViewSample.xcdatamodel; sourceTree = "<group>"; };
+		1EE04B8D1D19C789003F6EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EE04B901D19C789003F6EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EE04B921D19C789003F6EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE04B9A1D1AB5CA003F6EBE /* HIGridItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIGridItem.h; sourceTree = "<group>"; };
+		1EE04B9B1D1AB5CA003F6EBE /* HIGridItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIGridItem.m; sourceTree = "<group>"; };
+		1EE04B9E1D1AB5CA003F6EBE /* HIUIGridTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIGridTile.h; sourceTree = "<group>"; };
+		1EE04B9F1D1AB5CA003F6EBE /* HIUIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIScrollView.h; sourceTree = "<group>"; };
+		1EE04BA01D1AB5CA003F6EBE /* HIUIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUIScrollView.m; sourceTree = "<group>"; };
+		1EE04BA11D1AB5CA003F6EBE /* HIUIZoomableGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIZoomableGridView.h; sourceTree = "<group>"; };
+		1EE04BA21D1AB5CA003F6EBE /* HIUIZoomableGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUIZoomableGridView.m; sourceTree = "<group>"; };
+		1EE04BA31D1AB5CA003F6EBE /* HIUIZoomableGridViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIZoomableGridViewCommon.h; sourceTree = "<group>"; };
+		1EE04BA41D1AB5CA003F6EBE /* HIUIZoomableGridViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIZoomableGridViewDataSource.h; sourceTree = "<group>"; };
+		1EE04BA51D1AB5CA003F6EBE /* HIUIZoomableGridViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIZoomableGridViewDelegate.h; sourceTree = "<group>"; };
+		1EE04BA61D1AB5CA003F6EBE /* HIUIZoomableGridViewLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIZoomableGridViewLayoutManager.h; sourceTree = "<group>"; };
+		1EE04BAB1D1AB5E1003F6EBE /* HIUIZoomableGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIZoomableGridViewController.h; sourceTree = "<group>"; };
+		1EE04BAC1D1AB5E1003F6EBE /* HIUIZoomableGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUIZoomableGridViewController.m; sourceTree = "<group>"; };
+		1EE04BB01D1AB791003F6EBE /* SampleLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleLayoutManager.h; sourceTree = "<group>"; };
+		1EE04BB11D1AB791003F6EBE /* SampleLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleLayoutManager.m; sourceTree = "<group>"; };
+		1EE04BB31D1AB7E2003F6EBE /* SampleTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTile.h; sourceTree = "<group>"; };
+		1EE04BB41D1AB7E2003F6EBE /* SampleTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE04B781D19C789003F6EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE04B721D19C789003F6EBE = {
+			isa = PBXGroup;
+			children = (
+				1EE04B7D1D19C789003F6EBE /* HIUIZoomableGridViewSample */,
+				1EE04B7C1D19C789003F6EBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EE04B7C1D19C789003F6EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04B7B1D19C789003F6EBE /* HIUIZoomableGridViewSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EE04B7D1D19C789003F6EBE /* HIUIZoomableGridViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04B981D1AB5BB003F6EBE /* libs */,
+				1EE04BAF1D1AB77A003F6EBE /* layout manager */,
+				1EE04BAE1D1AB777003F6EBE /* tile */,
+				1EE04B811D19C789003F6EBE /* AppDelegate.h */,
+				1EE04B821D19C789003F6EBE /* AppDelegate.m */,
+				1EE04B841D19C789003F6EBE /* ViewController.h */,
+				1EE04B851D19C789003F6EBE /* ViewController.m */,
+				1EE04B871D19C789003F6EBE /* Main.storyboard */,
+				1EE04B8D1D19C789003F6EBE /* Assets.xcassets */,
+				1EE04B8F1D19C789003F6EBE /* LaunchScreen.storyboard */,
+				1EE04B921D19C789003F6EBE /* Info.plist */,
+				1EE04B8A1D19C789003F6EBE /* HIUIZoomableGridViewSample.xcdatamodeld */,
+				1EE04B7E1D19C789003F6EBE /* Supporting Files */,
+			);
+			path = HIUIZoomableGridViewSample;
+			sourceTree = "<group>";
+		};
+		1EE04B7E1D19C789003F6EBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04B7F1D19C789003F6EBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EE04B981D1AB5BB003F6EBE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04B991D1AB5CA003F6EBE /* HIUIZoomableGridView */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		1EE04B991D1AB5CA003F6EBE /* HIUIZoomableGridView */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04B9A1D1AB5CA003F6EBE /* HIGridItem.h */,
+				1EE04B9B1D1AB5CA003F6EBE /* HIGridItem.m */,
+				1EE04B9E1D1AB5CA003F6EBE /* HIUIGridTile.h */,
+				1EE04B9F1D1AB5CA003F6EBE /* HIUIScrollView.h */,
+				1EE04BA01D1AB5CA003F6EBE /* HIUIScrollView.m */,
+				1EE04BA11D1AB5CA003F6EBE /* HIUIZoomableGridView.h */,
+				1EE04BA21D1AB5CA003F6EBE /* HIUIZoomableGridView.m */,
+				1EE04BA31D1AB5CA003F6EBE /* HIUIZoomableGridViewCommon.h */,
+				1EE04BA41D1AB5CA003F6EBE /* HIUIZoomableGridViewDataSource.h */,
+				1EE04BA51D1AB5CA003F6EBE /* HIUIZoomableGridViewDelegate.h */,
+				1EE04BA61D1AB5CA003F6EBE /* HIUIZoomableGridViewLayoutManager.h */,
+				1EE04BAB1D1AB5E1003F6EBE /* HIUIZoomableGridViewController.h */,
+				1EE04BAC1D1AB5E1003F6EBE /* HIUIZoomableGridViewController.m */,
+			);
+			name = HIUIZoomableGridView;
+			path = libs/HIUIZoomableGridView;
+			sourceTree = "<group>";
+		};
+		1EE04BAE1D1AB777003F6EBE /* tile */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04BB31D1AB7E2003F6EBE /* SampleTile.h */,
+				1EE04BB41D1AB7E2003F6EBE /* SampleTile.m */,
+			);
+			name = tile;
+			sourceTree = "<group>";
+		};
+		1EE04BAF1D1AB77A003F6EBE /* layout manager */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04BB01D1AB791003F6EBE /* SampleLayoutManager.h */,
+				1EE04BB11D1AB791003F6EBE /* SampleLayoutManager.m */,
+			);
+			name = "layout manager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EE04B7A1D19C789003F6EBE /* HIUIZoomableGridViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE04B951D19C789003F6EBE /* Build configuration list for PBXNativeTarget "HIUIZoomableGridViewSample" */;
+			buildPhases = (
+				1EE04B771D19C789003F6EBE /* Sources */,
+				1EE04B781D19C789003F6EBE /* Frameworks */,
+				1EE04B791D19C789003F6EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HIUIZoomableGridViewSample;
+			productName = HIUIZoomableGridViewSample;
+			productReference = 1EE04B7B1D19C789003F6EBE /* HIUIZoomableGridViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EE04B731D19C789003F6EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sunhong Kim";
+				TargetAttributes = {
+					1EE04B7A1D19C789003F6EBE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1EE04B761D19C789003F6EBE /* Build configuration list for PBXProject "HIUIZoomableGridViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EE04B721D19C789003F6EBE;
+			productRefGroup = 1EE04B7C1D19C789003F6EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EE04B7A1D19C789003F6EBE /* HIUIZoomableGridViewSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE04B791D19C789003F6EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE04B911D19C789003F6EBE /* LaunchScreen.storyboard in Resources */,
+				1EE04B8E1D19C789003F6EBE /* Assets.xcassets in Resources */,
+				1EE04B891D19C789003F6EBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE04B771D19C789003F6EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE04BB21D1AB791003F6EBE /* SampleLayoutManager.m in Sources */,
+				1EE04BA91D1AB5CA003F6EBE /* HIUIScrollView.m in Sources */,
+				1EE04BAA1D1AB5CA003F6EBE /* HIUIZoomableGridView.m in Sources */,
+				1EE04BAD1D1AB5E1003F6EBE /* HIUIZoomableGridViewController.m in Sources */,
+				1EE04BA71D1AB5CA003F6EBE /* HIGridItem.m in Sources */,
+				1EE04B861D19C789003F6EBE /* ViewController.m in Sources */,
+				1EE04B831D19C789003F6EBE /* AppDelegate.m in Sources */,
+				1EE04B8C1D19C789003F6EBE /* HIUIZoomableGridViewSample.xcdatamodeld in Sources */,
+				1EE04B801D19C789003F6EBE /* main.m in Sources */,
+				1EE04BB51D1AB7E2003F6EBE /* SampleTile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EE04B871D19C789003F6EBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE04B881D19C789003F6EBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EE04B8F1D19C789003F6EBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE04B901D19C789003F6EBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EE04B931D19C789003F6EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EE04B941D19C789003F6EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE04B961D19C789003F6EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HIUIZoomableGridViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shkim.HIUIZoomableGridViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EE04B971D19C789003F6EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HIUIZoomableGridViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shkim.HIUIZoomableGridViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE04B761D19C789003F6EBE /* Build configuration list for PBXProject "HIUIZoomableGridViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE04B931D19C789003F6EBE /* Debug */,
+				1EE04B941D19C789003F6EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE04B951D19C789003F6EBE /* Build configuration list for PBXNativeTarget "HIUIZoomableGridViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE04B961D19C789003F6EBE /* Debug */,
+				1EE04B971D19C789003F6EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1EE04B8A1D19C789003F6EBE /* HIUIZoomableGridViewSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EE04B8B1D19C789003F6EBE /* HIUIZoomableGridViewSample.xcdatamodel */,
+			);
+			currentVersion = 1EE04B8B1D19C789003F6EBE /* HIUIZoomableGridViewSample.xcdatamodel */;
+			path = HIUIZoomableGridViewSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1EE04B731D19C789003F6EBE /* Project object */;
+}
