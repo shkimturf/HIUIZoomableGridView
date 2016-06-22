@@ -16,10 +16,6 @@ over iOS 7.0
 
 Just import **HIUIZoomableGridView** source files to your project.
 
-### Sample 
-
-**HIUIZoomableGridViewSample** project shows how to use this library.
-
 ### Layout Manager
 
 * Set zoomLevels to support zooming levels.
@@ -32,7 +28,7 @@ Just import **HIUIZoomableGridView** source files to your project.
     NSInteger minimumZoomLevel;
     NSInteger maximumZoomLevel;
     UIEdgeInsets contentInset
-    
+
     - (CGSize)cellSizeWithZoomLevel:(NSInteger)zoomLevel;
     - (CGSize)tileSizeWithZoomLevel:(NSInteger)zoomLevel;
 ```
@@ -66,7 +62,7 @@ Supports some kinds of delegate functions.
 
 ## Sample source
 
-**HIUIZoomableGridViewSample** implements explained above.
+**HIUIZoomableGridViewSample** implements explained above and shows how to use this library.
 
 ## Author
 
