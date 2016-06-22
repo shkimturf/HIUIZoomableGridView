@@ -31,7 +31,8 @@ Just import **HIUIZoomableGridView** source files to your project.
 ``` objc
     NSInteger minimumZoomLevel;
     NSInteger maximumZoomLevel;
-
+    UIEdgeInsets contentInset
+    
     - (CGSize)cellSizeWithZoomLevel:(NSInteger)zoomLevel;
     - (CGSize)tileSizeWithZoomLevel:(NSInteger)zoomLevel;
 ```
