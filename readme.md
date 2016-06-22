@@ -14,7 +14,7 @@ over iOS 7.0
 
 ### Setup
 
-Just import HIUIZoomableGridView source files to your project.
+Just import **HIUIZoomableGridView** source files to your project.
 
 ### Sample 
 
