@@ -70,4 +70,4 @@ Supports some kinds of delegate functions.
 
 ## License
 
-Tornado+MongoDB-WAS is under MIT License.
+HIUIZoomableGridView is under MIT License.
